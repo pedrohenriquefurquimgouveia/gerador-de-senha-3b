@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -6,11 +6,21 @@
 }
 
 :root{
-    --roxo-muito-forte: #10002b;
-    --roxo-forte: #240046;
-    --roxo: #3c096c;
-    --roxo-pouco-fraco: #5a189a;
-    --roxo-fraco: #7b2cbf;
-    --roxo-muito-fraco: #9d4edd;
-    --font-titulo: 
+    --branco: rgb(255, 255, 255);
+    --azul-marinho: #003f88ff;
+    --azul-fraco: #00509dff;
+    --amarelo: rgb(0, 0, 0);
+    --ouro: #ffd500ff;
+    --texto-titulo: "Lato", sans-serif;
+    --texto-corpo: "Briem Hand", cursive;
+}
+
+body{
+    background-color: var(--branco);
+    color:var(--preto);
+    font-family: var(--azul-fraco);
+}
+
+.titulo-principal{
+    font-family: var(--texto-titulo);
 }

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --roxo-muito-forte: #10002b;
+    --roxo-forte: #240046;
+    --roxo: #3c096c;
+    --roxo-pouco-fraco: #5a189a;
+    --roxo-fraco: #7b2cbf;
+    --roxo-muito-fraco: #9d4edd;
+    --font-titulo: 
+}
